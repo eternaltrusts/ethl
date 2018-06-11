@@ -19,6 +19,19 @@ OrdererOrgs:
       - Hostname: orderer
       - Hostname: orderer1
     #  - CommonName: orderer1.eternaltrusts.io
+
+# ---------------------------------------------------------------------------
+  # Orderer
+  # ---------------------------------------------------------------------------
+  - Name: EternaltrustsNode
+    Domain: smndode.com
+    # ---------------------------------------------------------------------------
+    # "Specs" - See PeerOrgs below for complete description
+    # ---------------------------------------------------------------------------
+    Specs:
+      - Hostname: orderer
+
+    #  - CommonName: orderer1.eternaltrusts.io
 # ---------------------------------------------------------------------------
 # "PeerOrgs" - Definition of organizations managing peer nodes
 # ---------------------------------------------------------------------------
